@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Montserrat:wght@500;700&family=Raleway:wght@700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:700px;
+    height: 400px;
+    display: flex;
+}
+.SEDANS{
+    width: 200px;
+    height: 350px;
+    background-color:  hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.SEDANS > .middle > h1{
+    color: white;
+    padding-bottom: 50px;
+
+}
+.SEDANS > .middle > p{
+    color: white;
+    font-size: 16px;
+}
+.SEDANS > .bottom >p{
+    color:  hsl(31, 77%, 52%);
+    background-color: white;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.SEDANS > .bottom{
+    width: 100px;
+}
+.SEDANS > .bottom > P:hover{
+    cursor: pointer;
+    border: 3px white solid;
+    background-color:  hsl(31, 77%, 52%);
+    color: white;
+}
+.SUV{
+    background-color: hsl(184, 100%, 22%);
+    width:200px ;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+.SUV > .middle2 > h1{
+    padding-bottom: 50px;
+    color: white;
+}
+.SUV > .middle2 > p{
+    color: white;
+    font-size: 16px;
+}
+.SUV > .bottom2{
+    width: 100px;
+}
+.SUV > .bottom2 > p{
+    color: hsl(184, 100%, 22%);
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SUV > .bottom2 > p:hover{
+    color:white ;
+    background-color: hsl(184, 100%, 22%);
+    border: 3px white solid ;
+    cursor: pointer;
+}
+.luxury{
+    width: 200px;
+    height: 350px;
+    background-color:hsl(179, 100%, 13%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.luxury > .middle3 > h1{
+    padding-bottom: 50px;
+    color: white;
+}
+.luxury > .middle3 > p{
+    color: white;
+    font-size: 16px;
+    font-family: '';
+}
+.luxury > .bottom3{
+    width: 100px;
+}
+.luxury > .bottom3 > p{
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border-radius: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.luxury > .bottom3 > p:hover{
+    color: white;
+    background-color:hsl(179, 100%, 13%);
+    cursor: pointer;
+    border: 3px white solid;
+}
